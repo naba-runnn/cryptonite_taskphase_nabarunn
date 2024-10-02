@@ -14,8 +14,11 @@ process: executed the run file in the challenge directory by typing /challenge/r
 flag: pwn.college{UgrOGXb5vuHUlTPzGtFtKeO5oAq.dZDN1QDL2ETN0czW}
 
 process: 
+
     * tried to execute /challenge/run but didn't work as it wasn't in the current directory
+    
     * so had to change my directory to the right directory by typing cd /usr/share/doc
+    
     * then executed the run file by typing /challenge/run
 
     
