@@ -38,15 +38,19 @@ process: (same as "Position Thy Self")
 flag: pwn.college{AmEq4RTZo5UsrFtvkojJPB0Nwxs.dhDN1QDL2ETN0czW}
 
 process: 
+
     * changed directory to / by cd /
+   
     * typed challenge/run
 
 
 ### explicit relative paths from /
 flag: pwn.college{QZyq80FOdUgQf29pfNoVvGSPFO8.dBTN1QDL2ETN0czW}
 
-process: 
+process:
+
     * changed directory to / by cd /
+    
     * typed ./challenge/run
 
 
@@ -54,7 +58,9 @@ process:
 flag: pwn.college{obgLINKaCbctepigRy3z-Zg_d6x.dFTN1QDL2ETN0czW}
 
 process: 
+
      * changed directory to /challenge by cd /challenge
+     
      * typed ./run
 
 
@@ -62,9 +68,14 @@ process:
 flag: pwn.college{wI6wTdaqin9wdoSNYUPLs8P-vSX.dNzM4QDL2ETN0czW}
 
 process: 
+
     * tried running /challenge/run, but it said it needed and argument
+    
     * executed /challenge/run but with an argument ~/.
+    
     * terminal said it wrote the file to the location and read it, but it showed nothing
+    
     * tried several things including using mkdir, cat but nothing worked
+    
     * finally tried running /challenge/run with argument ~/x with an arbitrary file x, which then gave me the flag
 
