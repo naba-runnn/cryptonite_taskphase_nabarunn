@@ -61,3 +61,29 @@ process:
 * _cat flagfile_
   
 
+### an epic filesystem quest
+flag: pwn.college{odKBZMRl4DJBXMNUcL04IF--esf.dljM4QDL2ETN0czW}
+
+process:
+
+* _cd /_
+* _ls_
+* spent a lot of time using _ls_ and _cd_for every file in /
+* _ls -a_
+* got a clue and then _cd_ to the file
+* followed the clues
+
+
+  ### making directories
+  flag: pwn.college{Qbynxhj8xRKqxdEt1-tG1YnAtf4.dFzM4QDL2ETN0czW}
+
+  process:
+
+  * _cd /_
+  * _mkdir /tmp/pwn_
+  * _cd /tmp/pwn_
+  * _touch college_
+  * _challenge/run_
+ 
+
+  
