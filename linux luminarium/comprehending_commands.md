@@ -42,12 +42,22 @@ process:
 
 
 ### removing files
-flag: pwn.college{QDkQE0fb5bjN5AZ4JlmI9dN4-f2.dhjNyUDL2ETN0czW}
+flag: pwn.college{UruXChdXlQMH2XwzHj6ZBTTdNet.dZTOwUDL2ETN0czW}
 
-process: exceuted the command hello with argument hackers by typing hello hackers
+process: 
+
+* _ls_ to list the files
+* _rm delete_me_
+* _/challenge/run_
 
 
 ### hidden files
-flag: pwn.college{QDkQE0fb5bjN5AZ4JlmI9dN4-f2.dhjNyUDL2ETN0czW}
+flag: pwn.college{AtGT6iYnQ757jLLHjA7VwDvU2BW.dBTN4QDL2ETN0czW}
 
-process: exceuted the command hello with argument hackers by typing hello hackers
+process: 
+
+* _cd /_
+* _ls -a_
+* _cat flagfile_
+  
+
