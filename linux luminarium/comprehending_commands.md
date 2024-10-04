@@ -86,4 +86,23 @@ process:
   * _challenge/run_
  
 
+### finding files
+flag: pwn.college{M5VHWJOtHhaSULO3suGddcevGXu.dJzM4QDL2ETN0czW}  
+
+process: 
+
+* _cd /_
+* _find -name flag_
+* using _cat_ on the found files
+
+
+
+  ### linking files
+  flag: pwn.college{sLmbw1yNBqoEgyUv3PFKC3ndgSN.dlTM1UDL2ETN0czW}
+
+  process:
+
+  *  _/challenge/catflag_, didn't work
+  * _ln -s /flag /home/hacker/not-the-flag_
+  
   
